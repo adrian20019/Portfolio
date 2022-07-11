@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--bootstrap-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 	<!--Google fonts-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,9 +22,10 @@
 <body >
     <header class="cabecera1">
 			<!-- cabecera del sitio -->
+			
 			<nav class="cabecera">
 					 <a href="./index.html"> <img src="./imagenes/logo.PNG" alt="DD logo personal"></a>
-					 
+					 <h1> Mi portafo<span>lio</span></h1>
 				<ul class="cabecera__ul">
 					<li class="cabecera__ul__li"> <a href="./sobre-mi.html">Sobre mi</a></li>
 					<li class="cabecera__ul__li"> <a href="./trabajos.html">Trabajos</a></li>
@@ -40,10 +43,17 @@
 	
 	<section class="sectionImg">
 		<!-- foto carrusel-->
-		<h1> Mi portafolio</h1>
-		<div>
-		<img src="./imagenes/coding-man.jpg" alt="imagenes desarrollador de fondo" class="sectionImg__img">
-		</div>
+		
+		<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-inner">
+			  <div class="carousel-item active">
+				<img src="./imagenes/coding-man.jpg" class="d-block w-100" alt="coding">
+			  </div>
+			  <div class="carousel-item">
+				<img src="./imagenes/developer.png" class="d-block w-100" alt="developer">
+			  </div>
+			</div>
+		  </div>
 	</section>
 </main>
 
@@ -56,5 +66,9 @@
 							<a href="https://web.telegram.org/z/"> <img src="./imagenes/telegram_icon_194153.png" alt="Mi red social telegram" class="footerDiv__socials--telegram"></a>
 				</div>	
 		</footer>
+
+
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 </body>
 </html>
