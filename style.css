@@ -223,8 +223,6 @@ footer{
     display: inline-block;
 
 }
-
-
 /*hice un footer aparte porque telegram tenia otro tamano y estaba alineado distinto*/
 .footerDiv__socials--telegram{
     width: 50px;
